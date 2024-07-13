@@ -22,7 +22,7 @@ public class HqController {
     @Produces(MediaType.APPLICATION_JSON)
     public Object getHqs(){
 
-        return this.service.getHqs();
+        return this.service.getAllHqs();
     }
 
     @GET
